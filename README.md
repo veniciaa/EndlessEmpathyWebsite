@@ -33,6 +33,7 @@ Date ------------Change Description
 18 August 2026: Added website content and images.
 21 August 2026: Tested the website and fixed errors.
 18 September 2026: Added the README.md file and project documentation.
+18 September 2026: Created the actual CSS file.
 
 ## Project Proposal Document (in detail)
 
