@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--meta is a tag used to give information/ metadata about the webpage to the browser.-->
+    <meta charset="UTF-8"> <!--This whole tag tells the browser how it should translate the raw code file into textor letters or symbols on our screen.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"
+    <title>Donate</title>
+</head>
+
+<body>
+   
+    <header>
+        <h1>Endless Empathy</h1>
+        <p>"Serving with heart and purpose."</p>
+    </header>
+
+
+    <!--Navigation for the website-->
+        <nav>
+            <a href="index.html">Home</a> 
+            <a href="aboutus.html">About Us</a> 
+            <a href="donate.html">Donate</a> 
+            <a href="volunteer.html">Volunteer</a> 
+            <a href="gethelp.html">Get Help</a> 
+            <a href="contactus.html">Contat Us</a> 
+        </nav>
+
+     <!--main page of the organaisation -->
+     <main>
+        <section>
+            <h2>Donate</h2>
+
+            <p>
+                Endless Empathy is  a community-focused non-profit organization, with the motto “Serving with Heart and Purpose.” 
+                The initiative is dedicated to providing support, care, and outreach to people in need in the community. 
+                Aiming to expand as time goes on. Created by Adrienne Brown in 2025, hoping to make the community better one act at a time.
+            </p>
+            
+
+        </section>
+
+        <section>
+            <!--code to show the image -->
+            <a href="donate.html">
+                <img src="images/donation.jpg"
+                alt="Donation Box"
+                width="100" height="auto">
+            </a>
+
+        </section>
+
+        <section>
+            <h3>Donor Information</h3>
+
+            <form action="/submit-donation" method="POST"> <!--This allows the form part of the webpage to basically form-->
+               
+                <p>
+                    <label for="fullName">Full Name:</label><br>
+                    <input type="text" id="fullName" name="fullName" required>
+                </p>
+
+                <p>
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="message">Leave a Message (Optional):</label><br>
+                    <textarea id="message" name="message" rows="4" cols="30"></textarea>
+                </p>
+
+                <p>
+                    <button type="submit">Submit Donation</button>
+                </p>
+
+            </form>
+
+        </section>
+            
+            <!--image of logo-->
+        <section>
+
+            <a href="donate.html">
+                <img src="images/logo.png"
+                alt="Endless Empathy Logo"
+                width="100" height="auto">
+            </a>
+
+        </section>    
+    
+
+     </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Endless Empathy. Take care of yourself first. </p>
+    </footer>
+
+</body>
+</html>
