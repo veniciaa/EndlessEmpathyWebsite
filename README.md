@@ -24,6 +24,16 @@ The main goals of the website are:
 - Make information easy to find and understand.
 - Create a simple and user-friendly website.
 
-##Project Proposal Document (in detail)
+## Change log
+
+Date ------------Change Description 
+10 August 2026: Created the initial project structure.
+12 August 2026: Created the initial website.
+16 August 2026: Added the main HTML pages and navigation.
+18 August 2026: Added website content and images.
+21 August 2026: Tested the website and fixed errors.
+18 September 2026: Added the README.md file and project documentation.
+
+## Project Proposal Document (in detail)
 
 [ENDLESS EMPATHY PROPOSAL.docx](https://github.com/user-attachments/files/32389580/ENDLESS.EMPATHY.PROPOSAL.docx)
