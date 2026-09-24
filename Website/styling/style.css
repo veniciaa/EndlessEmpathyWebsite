@@ -61,3 +61,20 @@ img
     height: auto;
     display: block;
 }
+
+/*buttons*/
+button 
+{
+    display: inline;
+    padding: 2px; /*the space between our components*/
+    border: 2px solid transparent;
+    border-radius: 999px;
+    text-align: center; /*Allows the text on button will be in the center of button*/
+    cursor: pointer; /*shows that button is clickable */
+}
+
+/*nav and header*/
+header 
+{
+    
+}
