@@ -34,7 +34,8 @@ Date ------------Change Description
 21 August 2026: Tested the website and fixed errors.
 18 September 2026: Added the README.md file and project documentation.
 18 September 2026: Created the actual CSS file.
-
+24 september 2026: edited css code to add rest of styling and fix html or update tags.
+25 september 2026: fixing errors in styling and html
 ## Project Proposal Document (in detail)
 
 [ENDLESS EMPATHY PROPOSAL.docx](https://github.com/user-attachments/files/32389580/ENDLESS.EMPATHY.PROPOSAL.docx)
