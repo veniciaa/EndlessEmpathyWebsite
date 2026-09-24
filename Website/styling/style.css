@@ -84,8 +84,19 @@ header
 
 .index-header 
 {
-    background-color: blue;
+    background-color: #f7a7a1;
     position: sticky;
     top: 0;
     z-index: 1000; /*It makes that specific element look like it is floating directly in front of or above everything else on the screen*/
 }
+
+/*Logo styling*/
+.logo
+{
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
