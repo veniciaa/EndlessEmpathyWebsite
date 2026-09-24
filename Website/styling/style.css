@@ -79,5 +79,13 @@ header
     background-color: skyblue;
     position: sticky; /* sticky  makes an element scroll with the page like normal until it reaches a specific spot, at which point it "sticks" to the screen and stays visible*/
     top: 0;
-    z-index: 1000;
+    z-index: 1000; /*It makes that specific element look like it is floating directly in front of or above everything else on the screen*/
+}
+
+.index-header 
+{
+    background-color: blue;
+    position: sticky;
+    top: 0;
+    z-index: 1000; /*It makes that specific element look like it is floating directly in front of or above everything else on the screen*/
 }
