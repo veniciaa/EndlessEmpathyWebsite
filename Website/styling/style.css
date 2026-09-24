@@ -31,7 +31,7 @@ h1
 
 h2 
 {
-    font-size: large;
+    font-size: 20px;
     font-weight: 600;
 }
 
@@ -55,7 +55,7 @@ a:visited  /*Link colour when it was clicked/ visited */
 }
 
 /*images*/
-img 
+image 
 {
     max-width: 100%;
     height: auto;
@@ -63,7 +63,7 @@ img
 }
 
 /*buttons*/
-button 
+.btn-remind 
 {
     display: inline;
     padding: 2px; /*the space between our components*/
@@ -76,7 +76,7 @@ button
 /*nav and header*/
 header 
 {
-    background-color: skyblue;
+    background-color: #cdb4e7;
     position: sticky; /* sticky  makes an element scroll with the page like normal until it reaches a specific spot, at which point it "sticks" to the screen and stays visible*/
     top: 0;
     z-index: 1000; /*It makes that specific element look like it is floating directly in front of or above everything else on the screen*/
