@@ -2,42 +2,47 @@ html /* styling html*/
 {
     /*Properties*/
     scroll-behavior: smooth; /*Instead of jumpy short instant movements on the screen this enables smooth transitions as the user navigated the webpage*/
+    background-color: #f1cdcb;
 }
 
 body /*Selector*/
 {
     font-family: 'Times New Roman', Times, serif;
-    font-size: large;
-    line-height: 1.5;
+    font-size: 22px;
+    line-height: 1.2;
     color: black;
-    background: color #fce7ec;
+    background: color #b8625d;
+    margin: 0;
 }
 
 /*Typography*/
 
 h1,h2
 {
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.2;
-    color: indigo;
+    font-family: cursive;
+    line-height: 1.6;
+    color: black;
     margin-bottom: auto;
 }
 
 h1 
 {
-    font-size: larger;
+    font-size: 60px;
     font-weight: 700;
+    text-align: center;
 }
 
 h2 
 {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 600;
+    margin-left: 30px;
 }
 
 p 
 {
-    margin-bottom: auto;
+    font-size: 24px;
+    margin: 20px;
 
 }
 
@@ -45,38 +50,49 @@ p
 
 a /*link colour and design when it is just shown on page or not  visited or clicked yet*/
 {
-    color: blue;
+    color: rgb(136, 44, 148);
     text-decoration: none;
 }
 
 a:visited  /*Link colour when it was clicked/ visited */
 {
-    color: #cdb4e7; 
+    color: #b2416e; /*colours nav links too*/
+}
+.direct-link 
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: larger;
+    margin-left: 50px;
 }
 
 /*images*/
-image 
+.image 
 {
     max-width: 100%;
     height: auto;
     display: block;
+    text-align: center;
+    margin:0 auto; /*forces the image to align since the display is set to block which can cause image not to align in center using text align*/
 }
 
 /*buttons*/
 .btn-remind 
 {
-    display: inline;
-    padding: 2px; /*the space between our components*/
+    display: block;
+    font-size: 20px;
+    margin: 20 auto;
+    padding: 15px 30px; /*the space between our components*/
     border: 2px solid transparent;
-    border-radius: 999px;
+    border-radius: 999px; /*rounding the edged*/
     text-align: center; /*Allows the text on button will be in the center of button*/
     cursor: pointer; /*shows that button is clickable */
+    background-color: #b2416e;
 }
 
 /*nav and header*/
 header 
 {
-    background-color: #cdb4e7;
+    background-color: #f1cdcb;
     position: sticky; /* sticky  makes an element scroll with the page like normal until it reaches a specific spot, at which point it "sticks" to the screen and stays visible*/
     top: 0;
     z-index: 1000; /*It makes that specific element look like it is floating directly in front of or above everything else on the screen*/
@@ -84,10 +100,17 @@ header
 
 .index-header 
 {
-    background-color: #f7a7a1;
+    background-color: #f1cdcb;
     position: sticky;
     top: 0;
     z-index: 1000; /*It makes that specific element look like it is floating directly in front of or above everything else on the screen*/
+}
+
+.support 
+{
+    position: sticky;
+    top: 0;
+    
 }
 
 /*Logo styling*/
@@ -98,6 +121,7 @@ header
     gap: 0.6rem;
     font-size: 1.5rem;
     font-weight: 600;
+    text-align: center;
 }
  /*Navigation styling*/
 nav 
@@ -106,6 +130,7 @@ nav
     list-style: none;
     gap: 1.5rem;
     align-items: center;
+
 }
 
 /*navigation link styling*/
@@ -116,9 +141,9 @@ nav a
 }
 
 nav a:hover,
-nav a:focus
+nav a:focus,
 nav a:active {
-    border-bottom: 4px solid pink;
+    border-bottom: 4px solid rgb(91, 3, 94);
     text-decoration: none;
 }
 
@@ -130,4 +155,12 @@ nav li:first-child a
 nav li:not(:last-child) {
     border-right: 1px solid #ccc;
     padding-right: 1.5rem;
+}
+
+
+/*ABOUT US PAGE*/
+
+.support-list 
+{
+    margin: 24px;
 }
