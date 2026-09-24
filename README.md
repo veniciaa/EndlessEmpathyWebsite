@@ -39,4 +39,3 @@ Date ------------Change Description
 
 [ENDLESS EMPATHY PROPOSAL.docx](https://github.com/user-attachments/files/32389580/ENDLESS.EMPATHY.PROPOSAL.docx)
 
-Website/index.html 
