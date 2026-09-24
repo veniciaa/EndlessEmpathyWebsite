@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
      <!--This line of code connects the Html page to the style sheet we have created-->
     <link rel="stylesheet" href="styling/style.css">
     
@@ -15,15 +15,16 @@
 
 <body>
 
-    <header>
+    <header class="index-header">
         <h1>Endless Empathy </h1>
+
         <p>"Serving with heart and purpose."</p>
         <p>A safe space dedicated to kindness, listening, and community support.</p>
 
     </header>
 
     <!--Navigation for the website-->
-        <nav>
+        <nav class="nav-bar">
             <a href="index.html">Home</a> 
             <a href="aboutus.html">About Us</a> 
             <a href="donate.html">Donate</a> 
@@ -35,7 +36,7 @@
      <!--main page -->
      <main>
 
-        <section>
+        <section class="welcome">
             <h2>Welcome to Endless Empathy</h2>
 
             <p>
@@ -48,7 +49,7 @@
 
         </section>
 
-        <section>
+        <section class="image">
             <!--allows image to be shown on page-->
             <a href="index.html">
                 <img src="images/support.jpg"
@@ -59,8 +60,9 @@
         </section>  
 
     <!-- how we will support -->
-        <section>
+        <section class="support">
             <h2>How We Support You</h2>
+            
             <p>
                 Use the links below to learn how you can get support or help our cause:
             </p>
@@ -78,7 +80,7 @@
 
 
     <!-- A reminder Button -->
-    <section>
+    <section class="reminder">
 
         <h2>Need a Reminder?</h2>
 
@@ -86,11 +88,11 @@
             You cannot pour from an empty cup. Click the button below for a small reminder.
         </p>
         <!--when you click this button you will be given an alert message-->
-        <button onclick="alert('You are doing enough. It is okay to rest today.')">Receive a Reminder</button>
+        <button class="btn-remind" onclick="alert('You are doing enough. It is okay to rest today.')">Receive a Reminder</button>
 
     </section>
 
-        <section>
+        <section class="index-logo">
             <!--allows image to be shown on index page-->
             <a href="aboutus.html">
                 <img src="images/logo.png"
