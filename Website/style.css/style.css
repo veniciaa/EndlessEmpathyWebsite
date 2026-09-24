@@ -1,4 +1,63 @@
-h1
+html /* styling html*/
 {
+    /*Properties*/
+    scroll-behavior: smooth; /*Instead of jumpy short instant movements on the screen this enables smooth transitions as the user navigated the webpage*/
+}
+
+body /*Selector*/
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    line-height: 1.5;
+    color: black;
+    background: color #fce7ec;
+}
+
+/*Typography*/
+
+h1,h2
+{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.2;
     color: indigo;
+    margin-bottom: auto;
+}
+
+h1 
+{
+    font-size: larger;
+    font-weight: 700;
+}
+
+h2 
+{
+    font-size: large;
+    font-weight: 600;
+}
+
+p 
+{
+    margin-bottom: auto;
+
+}
+
+/*Links*/
+
+a /*link colour and design when it is just shown on page or not  visited or clicked yet*/
+{
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited  /*Link colour when it was clicked/ visited */
+{
+    color: #cdb4e7; 
+}
+
+/*images*/
+img 
+{
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
