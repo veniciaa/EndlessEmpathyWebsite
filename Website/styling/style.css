@@ -122,3 +122,12 @@ nav a:active {
     text-decoration: none;
 }
 
+nav li:first-child a 
+{
+    padding-left: 0;
+}
+
+nav li:not(:last-child) {
+    border-right: 1px solid #ccc;
+    padding-right: 1.5rem;
+}
