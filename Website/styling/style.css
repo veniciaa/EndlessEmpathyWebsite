@@ -38,7 +38,6 @@ h2
     font-size: 30px;
     font-weight: 600;
     margin-left: 30px;
-    letter-spacing: normal;
 }
 
 p 
@@ -81,8 +80,8 @@ a:visited  /*Link colour when it was clicked/ visited */
 .btn-remind 
 {
     display: block;
-    font-size: 30px;
-    margin: 20px auto;
+    font-size: 20px;
+    margin: 20 auto;
     padding: 15px 30px; /*the space between our components*/
     border: 2px solid transparent;
     border-radius: 999px; /*rounding the edged*/
@@ -165,5 +164,5 @@ nav li:not(:last-child) {
 
 .support-list 
 {
-    margin: 30px;
+    margin: 24px;
 }
