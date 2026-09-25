@@ -168,3 +168,51 @@ nav li:not(:last-child) {
 {
     margin: 30px;
 }
+
+/*allowing screens to adapt to screen sizes.*/
+
+/*Tablet*/
+@media (max-width: 768px) {
+   
+    /* Shrink the general text sizes slightly so it fits neatly */
+    body {
+        font-size: 18px;
+    }
+
+    h1 {
+        font-size: 42px; /* Down from 60px to prevent headline wrapping weirdly */
+    }
+
+    h2 {
+        font-size: 26px;
+        margin-left: 15px; /* Reduce large indent on small screens */
+    }
+
+    p {
+        font-size: 18px;
+        margin: 15px;
+    }
+
+    /* The 750px left margin forces the logo completely off a tablet screen.
+       This resets it to center instead. */
+    .logo {
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+    }
+
+    /* Stack navigation items vertically or center them if they overflow */
+    nav {
+        justify-content: center;
+        flex-wrap: wrap; 
+        gap: 1rem;
+    }
+
+    /* Make large reminder buttons slightly smaller for tablet  */
+    .btn-remind {
+        font-size: 22px;
+        padding: 12px 24px;
+        width: 80%; /* Takes up nice readable space on a tablet */
+        max-width: 400px;
+    }
+}
