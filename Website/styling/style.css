@@ -17,7 +17,7 @@ body /*Selector*/
 
 /*Typography*/
 
-h1,h2
+h1,h2,h3
 {
     font-family: cursive;
     line-height: 1.6;
@@ -36,6 +36,14 @@ h1
 h2 
 {
     font-size: 30px;
+    font-weight: 600;
+    margin-left: 30px;
+    letter-spacing: normal;
+}
+
+h3 
+{
+    font-size: 26px;
     font-weight: 600;
     margin-left: 30px;
     letter-spacing: normal;
@@ -124,7 +132,7 @@ header
     font-size: 1.5rem;
     font-weight: 600;
     text-align: center;
-    margin-left: 750px;
+    border-radius: 10px;
 }
 
  /*Navigation styling*/
@@ -157,8 +165,8 @@ nav li:first-child a
 }
 
 nav li:not(:last-child) {
-    border-right: 1px solid #ccc;
-    padding-right: 1.5rem;
+    border-right: none;
+    padding-right: 0;
 }
 
 
@@ -168,6 +176,108 @@ nav li:not(:last-child) {
 {
     margin: 30px;
 }
+
+/*CONTACT US PAGE*/
+
+form 
+{
+    background-color: #ad94c9;
+    padding: 25px;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 20px auto; /*centers form block on the page*/
+}
+
+form p /*forms paragraphs*/
+{
+    text-align: left;
+    margin: 15px 0;
+}
+
+label 
+{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    box-sizing: border-box; /*stops layout borders from going past 100% width */
+    font-family: sans-serif;
+    font-size: 16px; /* stops phones from zooming when clicked */
+}
+
+.btn-send 
+{
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px auto;
+    padding: 12px ; /*the space between components*/
+    border: 2px solid transparent;
+    border-radius: 6px; /*rounding the edges*/
+    text-align: center; /*Allows the text on button will be in the center of button*/
+    cursor: pointer; /*shows that button is clickable */
+    background-color: #b2416e;
+}
+
+
+/*VOLUNTEER PAGE*/
+
+p.checkbox 
+{
+    text-align: left;
+    line-height: 2;   /* creates spacing between components*/
+    margin-bottom: 20px;
+}
+
+
+p.checkbox input[type="checkbox"] 
+{
+    display: block;
+    margin-bottom: 15px;
+    margin-right: 10px;     /* Space between the checkbox and the label  */
+    margin-left: 12px;
+    margin-top: 10px;        /* Spacing above each box */
+    cursor: pointer;        /* Shows the clickable hand indicator on hover */
+}
+
+.btn-apply 
+{
+   display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px auto;
+    padding: 12px ; /*the space between components*/
+    border: 2px solid transparent;
+    border-radius: 6px; /*rounding the edges*/
+    text-align: center; /*Allows the text on button will be in the center of button*/
+    cursor: pointer; /*shows that button is clickable */
+    background-color: #d45e8d; 
+}
+
+/*GET HELP PAGE*/
+
+.btn-submit 
+{
+   display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px auto;
+    padding: 12px ; 
+    border: 2px solid transparent;
+    border-radius: 6px; 
+    text-align: center; 
+    cursor: pointer; 
+    background-color: #d45e8d; 
+}
+
+
 
 /*allowing screens to adapt to screen sizes.*/
 
@@ -193,8 +303,6 @@ nav li:not(:last-child) {
         margin: 15px;
     }
 
-    /* The 750px left margin forces the logo completely off a tablet screen.
-       This resets it to center instead. */
     .logo {
         margin-left: auto;
         margin-right: auto;
@@ -208,11 +316,59 @@ nav li:not(:last-child) {
         gap: 1rem;
     }
 
-    /* Make large reminder buttons slightly smaller for tablet  */
+    /* Makes reminder buttons slightly smaller for tablet  */
     .btn-remind {
         font-size: 22px;
         padding: 12px 24px;
-        width: 80%; /* Takes up nice readable space on a tablet */
+        width: 80%;
         max-width: 400px;
+    }
+}
+
+
+
+/*Mobile screen adaptations*/
+
+@media (max-width: 480px) {
+    /* .akess text smaller for smaller screens*/
+    body { font-size: 16px; }
+    h1 { font-size: 32px; text-align: center; }
+    h2 { font-size: 22px; text-align: center; margin-left: 0; }
+    p { font-size: 16px; margin: 12px; }
+
+    /* Basic structural alignment: Force header elements into a simple center column stack */
+    header, .index-header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    /* basic nav for phone  */
+    nav {
+        flex-direction: column;
+        gap: 0.8rem;
+        padding: 0;
+        margin: 10px 0 0 0;
+    }
+
+    /* removes desktop borders and just lists the items out */
+    nav li:not(:last-child) {
+        border-right: none;
+        padding-right: 0;
+    }
+
+    /* easier to tap on phone*/
+    .btn-remind {
+        font-size: 18px;
+        padding: 10px;
+        width: 90%;
+    }
+
+    .direct-link {
+        display: block;
+        text-align: center;
+        margin-left: 0;
     }
 }
