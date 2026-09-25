@@ -51,6 +51,18 @@ Date ------------Change Description
 25 September 2026: Checked screen adapataion
 25 September 2026: References placed 
 
+## REFERENCING (part 2)
+
+GeeksforGeeks, 2025. CSS3 Media Query for All Devices. [online] Available at: https://www.geeksforgeeks.org/css/css3-media-query-for-all-devices/ [Accessed 24 September 2026].
+The Independent Institute of Education, 2026. Mobile App Scripting [WEDE5020w]. nt. [online via internal VLE] The Independent Institute of Education. Available at: Recap: WEDE5020-support session 2 Tuesday, 22 September | Meeting | Microsoft Teams[Accessed 22 September 2026]. 
+W3Schools, 2026. CSS Navigation Bars. [online] Available at: https://www.w3schools.com/css/css_navbar.asp [Accessed 20 September 2026].
+W3Schools, 2026. HTML nav Tag. [online] Available at: https://www.w3schools.com/tags/tag_nav.asp [Accessed 18 September 2026].
+The Independent Institute of Education, 2026. Mobile App Scripting [WEDE5020w]. nt. [online via internal VLE] The Independent Institute of Education. Available at: Recap: WEDE5020 Part 2 Support Session Monday, 21 September | Meeting | Microsoft Teams [Accessed 23 September 2026].
+Rahul, C., 2026. The Correct Way to Center-align Web Layouts. W3Bits. [online] Available at: https://w3bits.com/blog/css-centered-layout/ [Accessed 17 September 2026].
+W3Schools, 2026. Responsive Web Design - Media Queries. [online] Available at: https://www.w3schools.com/css/css_rwd_mediaqueries.asp [Accessed 23 September 2026].
+W3Schools, 2026. CSS Center Align. [online] Available at: https://www.w3schools.com/css/css_align.asp [Accessed 17 September 2026].
+W3Schools, 2026. CSS Forms. [online] Available at: https://www.w3schools.com/css/css_forms.asp [Accessed 15 September 2026].
+W3Schools, 2026. CSS Styling Buttons. [online] Available at: https://www.w3schools.com/css/css3_buttons.asp [Accessed 24 September 2026].
 
 ## Project Proposal Document (in detail)
 
