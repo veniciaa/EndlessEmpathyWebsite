@@ -11,38 +11,34 @@
 </head>
 
 <body>
-   
+
+   <div class="contact">
+
     <header>
-        <h1>Endless Empathy</h1>
 
-         <!--image of logo-->
-        <section>
+            <header>
 
-            <a href="contactus.html">
-                <img src="images/logo.png"
-                alt="Endless Empathy Logo"
-                width="200" height="auto">
-            </a>
+            <!--allows image to be shown on index page-->
+            <img src="images/logo.png" alt="Endless Empathy Logo">
 
-        </section> 
-
-        <p>"Serving with heart and purpose."</p>
-    </header>
-
-
-    <!--Navigation for the website-->
-        <nav>
+    
+             
+            <!--Navigation for the website-->
+        <nav class="navbar">
             <ul>
 
                 <li><a href="index.html">Home</a></li> 
                 <li><a href="aboutus.html">About Us</a></li> 
                 <li><a href="donate.html">Donate</a></li>
                 <li><a href="volunteer.html">Volunteer</a></li> 
-                <li><a href="gethelp.html">Get Help</a></li> 
+                <li><a href="enquiry.html">Get Help</a></li> 
                 <li><a href="contactus.html">Contact Us</a></li> 
 
             </ul>
         </nav>
+        
+
+    </header>
 
      <!--main page of the org -->
      <main>
@@ -59,34 +55,24 @@
 
         </section>
 
-        <section>
-            <form id="contactForm">
-            
+        <form id="contactForm">
+
             <p>
-                <label>Name:</label>
+                <label>Name:</label><br>
+                <input type="text" name="myName" id="myName" value="Your name here" onfocus="this.value=''">
+            </p>
+
+            <p>
+                <label>Email:</label>
                 <br>
-                <input type="text" id="name" name="contactName" required placeholder="Name">
-
-                <!-- Clean error message hook -->
-                <span id="nameError" class="error-message"></span>
+                <input type="email" name="myEmail" id="myEmail" value="Your email here" onfocus="this.value=''">
             </p>
 
+            <!-- button -->
             <p>
-                <label>Message:</label>
-                <br>
-                <textarea id="message" name="contactMessage" required placeholder="Type your message here."></textarea>
-
-                <!-- Clean error message hook -->
-                <span id="messageError" class="error-message"></span>
+                <button class="btn-send" type="button" onclick="validateForm()">Send</button>
             </p>
-
-            <p>
-                <button class="btn-send" type="submit">Send</button>
-            </p>
-            
-        </form>
-        </section>
-            
+</form>
                
     
 
@@ -97,6 +83,11 @@
     <footer>
         <p>© 2026 Endless Empathy. Take care of yourself first. </p>
     </footer>
+
+    <!--Javascript-->
+    <script src="app.js"></script>
+
+    </div>
 
 </body>
 </html>
