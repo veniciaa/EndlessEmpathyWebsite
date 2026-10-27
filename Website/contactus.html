@@ -60,13 +60,31 @@
         </section>
 
         <section>
-            <form action="/submit-contact" method="POST">
-                
-                    <p><label>Name:</label><br><input type="text" name="contactName" required placeholder="Name"></p>
-                    <p><label>Message:</label><br><textarea name="contactMessage" required placeholder="Type your message here."></textarea></p>
-                    <p><button class="btn-send" type="submit">Send</button></p>
-                
-            </form>
+            <form id="contactForm">
+            
+            <p>
+                <label>Name:</label>
+                <br>
+                <input type="text" id="name" name="contactName" required placeholder="Name">
+
+                <!-- Clean error message hook -->
+                <span id="nameError" class="error-message"></span>
+            </p>
+
+            <p>
+                <label>Message:</label>
+                <br>
+                <textarea id="message" name="contactMessage" required placeholder="Type your message here."></textarea>
+
+                <!-- Clean error message hook -->
+                <span id="messageError" class="error-message"></span>
+            </p>
+
+            <p>
+                <button class="btn-send" type="submit">Send</button>
+            </p>
+            
+        </form>
         </section>
             
                
