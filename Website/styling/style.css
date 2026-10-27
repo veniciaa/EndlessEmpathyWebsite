@@ -232,6 +232,17 @@ textarea {
     font-size: 16px; /* stops phones from zooming when clicked */
 }
 
+/*styling Error message for form*/
+.error-message {
+    display: none;
+    color: #ff0000;      /*Clear red warning */
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /*Helps readability */
+}
+
 .btn-send 
 {
     display: block;
