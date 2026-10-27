@@ -1,24 +1,16 @@
-* 
-{
-box-sizing: border-box;
-}
-
 html /* styling html*/
 {
     /*Properties*/
     scroll-behavior: smooth; /*Instead of jumpy short instant movements on the screen this enables smooth transitions as the user navigated the webpage*/
     background-color: #f1cdcb;
+    box-sizing: border-box ;
 }
 
 body /*Selector*/
 {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 22px;
-    line-height: 1.4;
     color: black;
-    background: color #b8625d;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
 }
 
 /*Typography*/
@@ -87,12 +79,18 @@ a:visited  /*Link colour when it was clicked/ visited */
 }
 
 /*images*/
-.image 
-{
+img {
+    padding: 0;
+    margin-left: 0;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 10px;
     max-width: 100%;
     height: auto;
     display: block;
-    text-align: center;
     margin:0 auto; /*forces the image to align since the display is set to block which can cause image not to align in center using text align*/
 }
 
@@ -104,81 +102,88 @@ a:visited  /*Link colour when it was clicked/ visited */
     margin: 20px auto;
     padding: 15px 30px; /*the space between our components*/
     border: 2px solid transparent;
-    border-radius: 999px; /*rounding the edged*/
+    border-radius: 999px; /*rounding the edgeds*/
     text-align: center; /*Allows the text on button will be in the center of button*/
     cursor: pointer; /*shows that button is clickable */
     background-color: #b2416e;
+}
+
+.btn-remind:hover
+{
+    background-color: rgb(91, 3, 94);
+    color: #fff;
 }
 
 /*nav and header*/
 header 
 {
     background-color: #f1cdcb;
-    position: sticky; /* sticky  makes an element scroll with the page like normal until it reaches a specific spot, at which point it "sticks" to the screen and stays visible*/
-    top: 0;
+    position: relative; /* sticky  makes an element scroll with the page like normal until it reaches a specific spot, at which point it "sticks" to the screen and stays visible*/
+    height: 150px;
     z-index: 1000; /*It makes that specific element look like it is floating directly in front of or above everything else on the screen*/
 }
 
-.index-header 
-{
-    background-color: #f1cdcb;
-    position: sticky;
-    top: 0;
-    z-index: 1000; /*It makes that specific element look like it is floating directly in front of or above everything else on the screen*/
+/*header image / logo*/
+header img{
+    width: 100px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    top: 10px;
+    left: 10px;
+    padding: 0;
+    margin-left: 0;
+    border: #c7bbc0;
+
 }
+
+
 
 .support 
 {
     position: sticky;
     top: 0;
+    z-index: 1000;
     
 }
 
-/*Logo styling*/
-.logo
-{
-    display: flex;
-    align-items: center;
-    gap: 0.6rem;
-    font-size: 1.5rem;
-    font-weight: 600;
-    text-align: center;
-    border-radius: 10px;
-}
+
 
  /*Navigation styling*/
-nav 
+.navbar
 {
-    display: flex;
-    list-style: none;
-    gap: 1.5rem;
-    align-items: center;
-    margin: 0;
+    width: 700px;
+    margin: 10px;
+    padding: 10px;
+    background-color: transparent;
+}
 
+.navbar li
+{
+    display: inline-block;
+    list-style-type: none; /*Removes the bullet points*/
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden; /*Removes verticle nav bar*/
 }
 
 /*navigation link styling*/
-nav a 
+.navbar a 
 {
-    padding: 0.4rem 0.2rem;
+    color: #53172f;
+    text-decoration: none; /*Removes lines under the links in nav bar*/
+    padding:15px;
     border-bottom: 2px solid transparent;
+    display: block;
+    text-align: center;
 }
 
-nav a:hover,
-nav a:focus,
-nav a:active {
+.navbar a:hover,
+.navbar a:focus,
+.navbar a:active {
     border-bottom: 4px solid rgb(91, 3, 94);
     text-decoration: none;
-}
-
-nav li:first-child a 
-{
-    padding-left: 0;
-}
-
-nav li:not(:last-child) {
-    border-right: none;
-    padding-right: 0;
+    background-color: #ad94c9;
 }
 
 
@@ -198,6 +203,7 @@ form
     border-radius: 8px;
     max-width: 500px;
     margin: 20px auto; /*centers form block on the page*/
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 form p /*forms paragraphs*/
@@ -210,6 +216,8 @@ label
 {
     font-weight: bold;
     font-size: 20px;
+    margin-bottom: 5px;
+    display: block;
 }
 
 input,
@@ -238,6 +246,12 @@ textarea {
     background-color: #b2416e;
 }
 
+.btn-send:hover
+{
+    background-color: rgb(91, 3, 94);
+    color: #fff;
+}
+
 
 /*VOLUNTEER PAGE*/
 
@@ -246,16 +260,16 @@ p.checkbox
     text-align: left;
     line-height: 2;   /* creates spacing between components*/
     margin-bottom: 20px;
+    display: flex;
+    align-items: flex-start;
 }
 
 
 p.checkbox input[type="checkbox"] 
 {
     display: block;
-    margin-bottom: 15px;
-    margin-right: 10px;     /* Space between the checkbox and the label  */
-    margin-left: 12px;
-    margin-top: 10px;        /* Spacing above each box */
+    width: auto;
+    margin: 10px 10px 15px 12px;       
     cursor: pointer;        /* Shows the clickable hand indicator on hover */
 }
 
@@ -268,9 +282,14 @@ p.checkbox input[type="checkbox"]
     padding: 12px ; /*the space between components*/
     border: 2px solid transparent;
     border-radius: 6px; /*rounding the edges*/
-    text-align: center; /*Allows the text on button will be in the center of button*/
+    text-align: center; /*Allows the text on button to be in the centered*/
     cursor: pointer; /*shows that button is clickable */
     background-color: #d45e8d; 
+}
+
+.btn-apply:hover
+ {
+    background-color: #b2416e;
 }
 
 /*GET HELP PAGE*/
@@ -287,6 +306,11 @@ p.checkbox input[type="checkbox"]
     text-align: center; 
     cursor: pointer; 
     background-color: #d45e8d; 
+}
+
+.btn-submit:hover 
+{
+    background-color: #b2416e;
 }
 
 
@@ -315,14 +339,17 @@ p.checkbox input[type="checkbox"]
         margin: 15px;
     }
 
-    .logo {
-        margin-left: auto;
-        margin-right: auto;
-        justify-content: center;
+    
+    /* Stack navigation items vertically or center them if they overflow */
+    header {
+        height: auto;
+        flex-direction: column;
+        padding: 15px;
+        gap: 15px;
     }
 
-    /* Stack navigation items vertically or center them if they overflow */
-    nav {
+
+    .navbar {
         justify-content: center;
         flex-wrap: wrap; 
         gap: 1rem;
@@ -396,8 +423,7 @@ p.checkbox input[type="checkbox"]
     }
 
     /* basic nav for phone  */
-    nav {
-        flex-direction: column;
+    .navbar {
         align-items: center;
         width: 100%;
         gap: 0.8rem;
@@ -406,15 +432,16 @@ p.checkbox input[type="checkbox"]
     }
 
     /* removes desktop borders and just lists the items out */
-    nav li
+    .navbar li
     {
         width: 100%;
+        display: block;
         text-align: center;
-        border-right: none;
-        padding-right: 0;
+        margin: 0;
+        padding: 0;
     }
 
-    nav a 
+    .navbar a 
     {
         display: block;
         padding: 0.8rem 0; /*Makes it easier for thumbs to touch*/
