@@ -1,3 +1,8 @@
+* 
+{
+box-sizing: border-box;
+}
+
 html /* styling html*/
 {
     /*Properties*/
@@ -9,10 +14,11 @@ body /*Selector*/
 {
     font-family: 'Times New Roman', Times, serif;
     font-size: 22px;
-    line-height: 1.2;
+    line-height: 1.4;
     color: black;
     background: color #b8625d;
     margin: 0;
+    padding: 0;
 }
 
 /*Typography*/
@@ -73,6 +79,11 @@ a:visited  /*Link colour when it was clicked/ visited */
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: larger;
     margin-left: 50px;
+}
+
+.direct-link ul
+{
+    list-style-type: none;
 }
 
 /*images*/
@@ -142,6 +153,7 @@ nav
     list-style: none;
     gap: 1.5rem;
     align-items: center;
+    margin: 0;
 
 }
 
