@@ -303,7 +303,45 @@ p.checkbox input[type="checkbox"]
     background-color: #b2416e;
 }
 
-/*GET HELP PAGE*/
+/* ENQUIRY PAGE*/
+
+/* Accordion Buttons */
+.accordion {
+  background-color: #ad94c9;
+  color: black;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+/* Hover and Active State Colors */
+.active, .accordion:hover {
+  background-color: #b2416e;
+  color: white;
+}
+
+/* Hidden Accordion Panel */
+.panel {
+  padding: 0 18px;
+  background-color: #fcf8f8;
+  display: none;
+  overflow: hidden;
+  border-left: 4px solid #b2416e;
+}
+
+.panel p {
+  font-size: 18px;
+  margin: 15px 0;
+  color: black;
+}
 
 .btn-submit 
 {
