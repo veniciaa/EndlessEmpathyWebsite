@@ -59,3 +59,30 @@ function validateHelpForm() {
     // If everything is right its successful
     alert("Excellent! Form submitted successfully!");
 }
+
+
+//ENQUIRY PAGE ACORDION SECTION
+var acc = document.getElementsByClassName("accordion");
+
+var i;
+
+for (i = 0; i < acc.length; i++) {
+
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+
+    /*toggles between showing the panel and hiding it*/
+    var panel = this.nextElementSibling;
+
+    if (panel.style.display === "block") 
+      {
+
+        panel.style.display = "none";
+
+      } else {
+
+        panel.style.display = "block";
+
+      }
+  });
+}
