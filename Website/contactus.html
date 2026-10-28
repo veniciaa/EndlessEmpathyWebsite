@@ -14,30 +14,24 @@
 
    <div class="contact">
 
+    <!-- FIXED: Removed the double nested open header tag here -->
     <header>
 
-            <header>
+        <!--allows image to be shown on index page-->
+        <img src="images/logo.png" alt="Endless Empathy Logo">
 
-            <!--allows image to be shown on index page-->
-            <img src="images/logo.png" alt="Endless Empathy Logo">
-
-    
-             
-            <!--Navigation for the website-->
+        <!--Navigation for the website-->
         <nav class="navbar">
             <ul>
-
                 <li><a href="index.html">Home</a></li> 
                 <li><a href="aboutus.html">About Us</a></li> 
                 <li><a href="donate.html">Donate</a></li>
                 <li><a href="volunteer.html">Volunteer</a></li> 
                 <li><a href="enquiry.html">Get Help</a></li> 
                 <li><a href="contactus.html">Contact Us</a></li> 
-
             </ul>
         </nav>
         
-
     </header>
 
      <!--main page of the org -->
@@ -51,21 +45,17 @@
                 or this website, or you have a complaint or would like to report something please 
                 fill the form below and send us a message.
             </p>
-            
-
         </section>
 
         <form id="contactForm">
 
             <p>
-                <label>Name:</label>
-                <br>
+                <label>Name:</label><br>
                 <input type="text" name="myName" id="myName" value="Your name here" onfocus="this.value=''">
             </p>
 
             <p>
-                <label>Email:</label>
-                <br>
+                <label>Email:</label><br>
                 <input type="email" name="myEmail" id="myEmail" value="Your email here" onfocus="this.value=''">
             </p>
 
@@ -73,12 +63,9 @@
             <p>
                 <button class="btn-send" type="button" onclick="validateForm()">Send</button>
             </p>
-</form>
+        </form>
                
-    
-
      </main>
-
 
     <!-- Footer -->
     <footer>
