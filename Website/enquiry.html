@@ -57,33 +57,30 @@
         </section>
 
         <section>
-            <form action="/submit-get-help" method="POST">
-                
-                <p>
-                    <label for="helpName">Name:</label><br>
-                    <input type="text" id="helpName" name="helpName"  required placeholder="Name">
-                </p>
 
+            <form id="getHelpForm">
                 <p>
-                    <label for="helpContact">Phone or Email:</label><br>
-                    <input type="text" id="helpContact" name="helpContact"  required placeholder="phone or email">
-                </p>
-
-                <p>
-
-                    <label for="helpDetails">Please type what you need help with (e.g., food, matric dance, clothes, sanitary items):</label>
+                    <label for="helpName">Name:</label>
                     <br>
-
-                    <textarea id="helpDetails" name="helpDetails" rows="6" cols="40" required placeholder="Type your request here..."></textarea>
-
+                    <input type="text" id="helpName" name="helpName" required value="Your name here" onfocus="if(this.value=='Your name here') this.value=''">
                 </p>
 
                 <p>
-                    <button class="btn-submit" type="submit">Submit Request</button>
+                    <label for="helpContact">Phone or Email:</label>
+                    <br>
+                    <input type="text" id="helpContact" name="helpContact" required value="Your contact details here" onfocus="if(this.value=='Your contact details here') this.value=''">
                 </p>
-                
-            </form>
 
+                <p>
+                    <label for="helpDetails">Please type what you need help with (e.g., food, matric dance, clothes, sanitary items,etc.):</label>
+                    <br>
+                    <textarea id="helpDetails" name="helpDetails" rows="6" cols="40" required onfocus="if(this.value=='Type your request here...') this.value=''">Type your request here...</textarea>
+                </p>
+
+                <p>
+                    <button class="btn-submit" type="button" onclick="validateHelpForm()">Submit Request</button>
+                </p>
+            </form>
         </section>
 
         <!-- SOUTH AFRICAN EMERGENCY NUMBERS -->
