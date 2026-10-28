@@ -1,80 +1,21 @@
-import React, {useState} from 'react';
-import {View,Text, StyleSheet,TextInput,Button, Alert} from 'react-native';
-export default function App(){
+//CONTACT US FORM VALIDATION
 
-    const[name, setName] = useState('');
-    const[email, setEmail] = useState('');
-    const[password, setPassword] = useState('');
+function validateForm() {
+    //Check that someone has actually entered something 
+    var validateName = document.getElementById("myName").value;
 
-    const handleSubmit = () => {
-    Alert.alert('Form Submitted!', `Welcome, ${name}!`);
-  };
+    if (validateName == "Your name here" || validateName == "") {
+        alert("Please enter your name");
+        return; //stops the function 
+    }
 
-  return(
-    <View style={styles.container}>
+    //Check that the email address includes a @ and . in it
+    var validateEmail = document.getElementById("myEmail").value;
 
-    <Text style={styles.heading}>
-    Registration Form
-    </Text>
-
-    <TextInput style={styles.input}
-    placeholder ="Enter Name"
-    value={name}
-    onChangeText={setName}/>
-
-    <TextInput style={styles.input}
-    placeholder ="example@email.com"
-    keyboardType="email-address"
-    value={email}
-    onChangeText={setEmail}/>
-
-    <TextInput style={styles.input}
-    placeholder ="Enter your password"
-    secureTextEntry={true}
-    value={password}
-    onChangeText={setPassword}/>
-
-    <View style={styles.button}>
-    <Button
-    title="Submit"
-    color="green"
-    onPress={handleSubmit}/> 
-    </View>
-        
-    <View style={styles.button}>
-    <Button
-    title="Cancel"
-    color="red"
-    onPress={() => {}}/>
-    </View>
-
-    </View> 
-      );
-  }
-  const styles = StyleSheet.create({
-  container:{
-    flex:1,
-    padding:20,
-    justifyContent:'center',
-    alignItems:'center'
-  },
-  heading:{
-  fontSize:24,
-  fontWeight:'bold',
-  textAlign:'center',
-  marginBottom: 20,
-  },
-  input:{
-  width:'100%',
-  borderWidth:1,
-  borderColor:'grey',
-  padding:10,
-  marginBottom:15,
-  borderRadius:5,
-  },
-  button:{
-  marginTop:10,
-  
-  },
-
-});
+    if (validateEmail.includes("@") && validateEmail.includes(".")) {
+        // Email contains required symbols
+    } else {
+        alert("Email format not valid ");
+        return; //stops the function 
+    }
+}
