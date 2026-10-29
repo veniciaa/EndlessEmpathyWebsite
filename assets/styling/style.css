@@ -91,7 +91,7 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
-    margin:0 auto; /*forces the image to align since the display is set to block which can cause image not to align in center using text align*/
+    margin: 2px auto; /*forces the image to align since the display is set to block which can cause image not to align in center using text align*/
 }
 
 /*buttons*/
@@ -132,7 +132,6 @@ header img{
     top: 10px;
     left: 10px;
     padding: 0;
-    margin-left: 0;
     border: #c7bbc0;
 
 }
