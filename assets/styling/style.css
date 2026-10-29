@@ -434,13 +434,13 @@ p.checkbox input[type="checkbox"]
 
     h1 
     { 
-        font-size: 32px; 
+        font-size: 18px; 
         text-align: center; 
     }
 
     h2 
     { 
-        font-size: 22px; 
+        font-size: 15px; 
         text-align: center; 
         margin-left: 0; 
     }
@@ -494,14 +494,15 @@ p.checkbox input[type="checkbox"]
         display: block;
         padding: 0.8rem 0; /*Makes it easier for thumbs to touch*/
         width: 100%;
+        font-size: 12px;
     }
 
     /* easier to tap on phone*/
     .btn-remind, .btn-submit, .btn-apply, .btn-send
     {
-        font-size: 18px;
+        font-size: 12px;
         padding: 12px;
-        width: 100%;
+        width: 40%;
     }
 
     .direct-link {
@@ -509,5 +510,6 @@ p.checkbox input[type="checkbox"]
         text-align: center;
         margin-left: 0;
         margin-top: 15px;
+        font-size: 10px;
     }
 }
