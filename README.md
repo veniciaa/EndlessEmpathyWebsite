@@ -107,6 +107,12 @@ The main goals of the website are:
  - 28 October 2026: Moved assets folder out website folder to fix path way and make sure styling is shown on the website.
  - 28 October 2026: Finalized References
  - 28 October 2026: Edited and changed Markdown language for the read me file
+ - 29 October 2026: Removed empty meta tag
+ - 29 October 2026: Remove extra header tag
+ - 29 October 2026:Changed image styling and removed margin(0 auto) 
+ - 29 October 2026: Adjusted font for a more responsive design
+ - 29 October 2026:Added deplyment link to readme file
+
 
 
 
