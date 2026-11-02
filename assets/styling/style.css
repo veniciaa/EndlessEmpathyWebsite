@@ -503,7 +503,18 @@ label.checkbox input[type="checkbox"]
     {
         width: 90%;
         padding: 20px;
-    }   
+    }
+    
+     .column 
+     {
+        flex: 1 1 calc(50% - 15px);
+        max-width: calc(50% - 15px);
+    }
+  
+    .column img 
+    {
+        height: 180px;
+    }
 }
 
 
@@ -597,5 +608,28 @@ label.checkbox input[type="checkbox"]
         margin-left: 0;
         margin-top: 15px;
         font-size: 10px;
+    }
+
+    /*lightbox gallery adjustments for mobile*/
+    .column 
+        {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .column img 
+    {
+        height: 220px;
+    }
+
+    .modal 
+    {
+        padding-top: 100px; /* More space for close buttons on mobile */
+    }
+
+    .prev, .next 
+    {
+        font-size: 18px;
+        padding: 10px 14px; /* Slightly smaller click spaces for mobile layouts */
     }
 }
