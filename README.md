@@ -114,7 +114,12 @@ The main goals of the website are:
  - 29 October 2026:Added deplyment link to readme file
  - 02 November 2026: Added detail to the alt attributes for the images and to improve SEO
  - 02 November 2026: Added required to each of the input tags
- - 02 November 2026: Changed required valur to required placeholder
+ - 02 November 2026: Changed required valu to required placeholder
+ - 02 November 2026: Added lightbox gallery in html
+ - 02 November 2026: Added images required for the lightbox gallert yo the assests folder
+ - 02 November 2026: 
+ - 02 November 2026:
+ - 02 November 2026:
 
 
 
