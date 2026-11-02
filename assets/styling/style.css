@@ -470,6 +470,35 @@ label.checkbox input[type="checkbox"]
     margin: 10px 0 0 0;
 }
 
+/*Serch and filter settings*/
+
+/* Positions the search field item neatly inside your horizontal navbar list row */
+.nav-search-item {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 15px;
+}
+
+/* Base style rules for the Search Box input field */
+#serviceSearch {
+    padding: 8px 15px;
+    font-size: 16px;
+    border: 2px solid #53172f; /* Complements your dark purple theme text link tones */
+    border-radius: 20px;       /* Gives it a clean, professional rounded pill look */
+    background-color: #fff;
+    width: 150px;
+    box-sizing: border-box;    /* Prevents container scaling breakage */
+    font-family: sans-serif;
+    transition: width 0.3s ease, border-color 0.3s ease;
+}
+
+/* Expands the search box gracefully when clicked inside for a modern feel */
+#serviceSearch:focus {
+    outline: none;
+    border-color: rgb(91, 3, 94); /* Matches your desktop navigation menu hover state borders */
+    width: 190px;
+}
+
 /*allowing screens to adapt to screen sizes.*/
 
 /*Tablet*/
@@ -652,5 +681,20 @@ label.checkbox input[type="checkbox"]
     {
         font-size: 18px;
         padding: 10px 14px; /* Slightly smaller click spaces for mobile layouts */
+    }
+
+     .nav-search-item {
+        display: block;    /* Collapses item vertically in mobile column navbar menu */
+        width: 100%;
+        padding: 10px 0;
+        text-align: center;
+        padding-left: 0;
+        margin-top: 10px;
+    }
+
+    #serviceSearch {
+        width: 80%;        /* Spans wide across smaller display monitors smoothly */
+        max-width: 300px;
+        margin: 0 auto;
     }
 }
