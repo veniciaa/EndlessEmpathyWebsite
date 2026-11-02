@@ -111,6 +111,93 @@
 
         </section>
 
+        <!-- Lightbox gallery -->
+        <section class="gallery-section">
+        <h2>Our Impact Gallery</h2>
+  
+            <!-- Clickable Thumbnails Grid -->
+            <div class="row">
+
+                <div class="column">                    
+                    <img 
+                    src="assets/images/foodbank.jpg" 
+                    onclick="openModal();currentSlide(1)" 
+                    alt="Grocery Hampers">
+                </div>
+
+                <div class="column">
+                    <img 
+                    src="assets/images/matricdress.jpg" 
+                    onclick="openModal();currentSlide(2)"
+                     alt="Matric Dresses">
+                </div>
+                
+                <div class="column">
+                    <img 
+                    src="assets/images/fooddrive.jpg" 
+                    onclick="openModal();currentSlide(3)" 
+                    alt="food drive for community support">
+                </div>
+
+                <div class="column">
+                    <img 
+                    src="assets/images/logo.png"
+                    onclick="openModal();currentSlide(4)" 
+                    alt="Our Logo">
+                </div>
+
+            </div>
+
+            <!-- Hidden Pop-up Overlay Box -->
+            <div id="myModal" class="modal">
+
+            <!-- Close Button -->
+             <span 
+             class="close" 
+             onclick="closeModal()">
+              &times; 
+            </span>
+                
+            <div class="modal-content">
+
+        <!-- Slides -->
+        <div class="mySlides">
+            <img 
+            src="assets/images/foodbank.jpg" 
+            class="slide-img">
+        </div>
+
+        <div class="mySlides">
+            <img 
+            src="assets/images/matricdress.jpg" 
+            class="slide-img">
+        </div>
+
+        <div class="mySlides">
+            <img 
+            src="assets/images/fooddrive.jpg" 
+            class="slide-img">
+        </div>
+
+        <div class="mySlides">
+            <img 
+            src="assets/images/logo.png" 
+            class="slide-img">
+        </div>
+
+      <!-- Arrow Controls -->
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+
+      <!-- Caption text-->
+      <div class="caption-container">
+        <p id="caption"></p>
+      </div>
+      
+    </div>
+  </div>
+</section>
+
 
     <!-- A reminder Button -->
     <section class="reminder">
