@@ -361,6 +361,92 @@ label.checkbox input[type="checkbox"]
     background-color: #b2416e;
 }
 
+/*Lightbox gallery styling*/
+.column {
+  float: left;
+  width: 25%; /* Splits your 4 images into equal quarters across the row line */
+  padding: 8px;
+}
+
+.column img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+/* Clear float rows layout spacing */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Hidden Fullscreen Background Canvas Overlay Screen */
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 2000; /* Floats safely on top of your sticky navigation menus */
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.95);
+  padding-top: 80px;
+}
+
+/* Lightbox pop-up central photo viewport rules */
+.modal-content {
+  position: relative;
+  margin: auto;
+  width: 90%;
+  max-width: 700px;
+}
+
+.slide-img {
+  width: 100%;
+  height: 400px;
+  object-fit: contain;
+}
+
+/* Close Button Position */
+.close {
+  color: white;
+  position: absolute;
+  top: 15px;
+  right: 25px;
+  font-size: 50px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Navigation Left and Right Floating Arrow Handles */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 45%;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  background-color: rgba(0, 0, 0, 0.5);
+  user-select: none;
+}
+
+.next { right: 0; }
+
+.prev:hover, .next:hover {
+  background-color: #b2416e;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding: 5px;
+  font-family: cursive;
+}
 
 
 /*allowing screens to adapt to screen sizes.*/
