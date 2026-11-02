@@ -189,6 +189,8 @@ The main goals of the website are:
  - W3Schools (2026) W3.CSS templates. Available at: https://www.w3schools.com/w3css/w3css_templates.asp (Accessed: 28 October 2026).
 
  - W3SCHOOLS, no date. How TO - Lightbox. Available from: https://www.w3schools.com/howto/howto_js_lightbox.asp (Accessed: 2 November 2026).
+ 
+ - W3SCHOOLS, no date. How TO - Search Bar. Available from: https://www.w3schools.com/howto/howto_css_searchbar.asp (Accessed: 2 November 2026).
 
   
   
