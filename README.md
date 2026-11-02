@@ -121,6 +121,10 @@ The main goals of the website are:
  - 02 November 2026: Added js for lightbox gallery
  - 02 November 2026: Added responsive design for lightbox gallery
  - 02 November 2026: added referencing 
+ - 02 November 2026: Added in a search and filter section for the webpage
+ - 02 November 2026: Did the styling for the search and filter 
+ - 02 November 2026: Added the js for search and filter
+ - 02 November 2026: Created responsive design for the search and filter styling section
  - 02 November 2026:
  - 02 November 2026:
  - 02 November 2026:
