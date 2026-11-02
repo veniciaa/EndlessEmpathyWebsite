@@ -117,7 +117,11 @@ The main goals of the website are:
  - 02 November 2026: Changed required valu to required placeholder
  - 02 November 2026: Added lightbox gallery in html
  - 02 November 2026: Added images required for the lightbox gallert yo the assests folder
- - 02 November 2026: 
+ - 02 November 2026: Added styling for lightbox gallery
+ - 02 November 2026: Added js for lightbox gallery
+ - 02 November 2026: Added responsive design for lightbox gallery
+ - 02 November 2026: added referencing 
+ - 02 November 2026:
  - 02 November 2026:
  - 02 November 2026:
 
@@ -168,17 +172,20 @@ The main goals of the website are:
 
  - Google (2025) Introduction to robots.txt. Available at: https://developers.google.com/search/docs/crawling-indexing/robots/intro (Accessed: 27 October 2026).
 
- - White, J. (2025) 'Sitemap examples: XML best practices to optimize for SEO & Google', Victorious Blog [Blog], 20 October. Available at: https://victorious.com/blog/sitemap-examples/ (Accessed: 28 October 2026).
+ - White, J. (2025) 'Sitemap examples: XML best practices to optimize for SEO & Google', Victorious Blog (Blog), 20 October. Available at: https://victorious.com/blog/sitemap-examples/ (Accessed: 28 October 2026).
 
- - Hanna, C. (2026) '19 sitemap examples for any type of website (+ best practices)', Backlinko [Blog], 24 October. Available at: https://backlinko.com/sitemap-examples (Accessed: 28 October 2026).
+ - Hanna, C. (2026) '19 sitemap examples for any type of website (+ best practices)', Backlinko (Blog), 24 October. Available at: https://backlinko.com/sitemap-examples (Accessed: 28 October 2026).
 
  - Ahrefs (2026)  Free keyword generator tool. Available at: https://ahrefs.com/keyword-generator (Accessed: 27 October 2026).
 
  -  W3Schools (2026) How TO - collapsibles/accordion. Available at: https://www.w3schools.com/howto/howto_js_accordion.asp (Accessed: 28 October 2026).
 
- - Abbamonte, K. (2026) 'The 5 best free keyword research tools in 2026', Zapier Blog [Blog], 3 July. Available at: https://zapier.com/blog/best-keyword-research-tool/ (Accessed: 28 October 2026).
+ - Abbamonte, K. (2026) 'The 5 best free keyword research tools in 2026', Zapier Blog (Blog), 3 July. Available at: https://zapier.com/blog/best-keyword-research-tool/ (Accessed: 28 October 2026).
 
  - W3Schools (2026) W3.CSS templates. Available at: https://www.w3schools.com/w3css/w3css_templates.asp (Accessed: 28 October 2026).
+
+ - W3SCHOOLS, no date. How TO - Lightbox. Available from: https://www.w3schools.com/howto/howto_js_lightbox.asp (Accessed: 2 November 2026).
+
   
   
 
@@ -186,5 +193,5 @@ The main goals of the website are:
 
   
 
-[ENDLESS EMPATHY PROPOSAL.docx](https://github.com/user-attachments/files/32389580/ENDLESS.EMPATHY.PROPOSAL.docx).PROPOSAL.docx)
+[ENDLESS EMPATHY PROPOSAL.docx] (https://github.com/user-attachments/files/32389580/ENDLESS.EMPATHY.PROPOSAL.docx)
 
