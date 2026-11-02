@@ -92,11 +92,13 @@ for (i = 0; i < acc.length; i++) {
 // Open the Modal 
 function openModal() {
   document.getElementById("myModal").style.display = "block";
+  document.body.style.overflow = "hidden";
 }
 
 // Close the Modal 
 function closeModal() {
   document.getElementById("myModal").style.display = "none";
+  document.body.style.overflow = "auto";
 }
 
 var slideIndex = 1;

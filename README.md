@@ -125,8 +125,8 @@ The main goals of the website are:
  - 02 November 2026: Did the styling for the search and filter 
  - 02 November 2026: Added the js for search and filter
  - 02 November 2026: Created responsive design for the search and filter styling section
- - 02 November 2026:
- - 02 November 2026:
+ - 02 November 2026: edited sreach and filter styling and html
+ - 02 November 2026:edited styling to light box gallery
  - 02 November 2026:
 
 
@@ -189,7 +189,7 @@ The main goals of the website are:
  - W3Schools (2026) W3.CSS templates. Available at: https://www.w3schools.com/w3css/w3css_templates.asp (Accessed: 28 October 2026).
 
  - W3SCHOOLS, no date. How TO - Lightbox. Available from: https://www.w3schools.com/howto/howto_js_lightbox.asp (Accessed: 2 November 2026).
- 
+
  - W3SCHOOLS, no date. How TO - Search Bar. Available from: https://www.w3schools.com/howto/howto_css_searchbar.asp (Accessed: 2 November 2026).
 
   

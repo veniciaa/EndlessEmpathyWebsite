@@ -364,7 +364,7 @@ label.checkbox input[type="checkbox"]
 /*Lightbox gallery styling*/
 .column {
   float: left;
-  width: 25%; /* Splits your 4 images into equal quarters across the row line */
+  width: 25%; 
   padding: 8px;
 }
 
@@ -387,7 +387,6 @@ label.checkbox input[type="checkbox"]
 .modal {
   display: none; 
   position: fixed;
-  z-index: 2000; /* Floats safely on top of your sticky navigation menus */
   left: 0;
   top: 0;
   width: 100%;
@@ -472,7 +471,6 @@ label.checkbox input[type="checkbox"]
 
 /*Serch and filter settings*/
 
-/* Positions the search field item neatly inside your horizontal navbar list row */
 .nav-search-item {
     display: inline-block;
     vertical-align: middle;
@@ -483,7 +481,7 @@ label.checkbox input[type="checkbox"]
 #serviceSearch {
     padding: 8px 15px;
     font-size: 16px;
-    border: 2px solid #53172f; /* Complements your dark purple theme text link tones */
+    border: 2px solid #53172f; 
     border-radius: 20px;       /* Gives it a clean, professional rounded pill look */
     background-color: #fff;
     width: 150px;
@@ -492,10 +490,11 @@ label.checkbox input[type="checkbox"]
     transition: width 0.3s ease, border-color 0.3s ease;
 }
 
-/* Expands the search box gracefully when clicked inside for a modern feel */
-#serviceSearch:focus {
+
+#serviceSearch:focus 
+{
     outline: none;
-    border-color: rgb(91, 3, 94); /* Matches your desktop navigation menu hover state borders */
+    border-color: rgb(91, 3, 94); 
     width: 190px;
 }
 
