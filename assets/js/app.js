@@ -132,3 +132,32 @@ function showSlides(n) {
   slides[slideIndex - 1].style.display = "block";
   captionText.innerHTML = thumbnails[slideIndex - 1].alt;
 }
+
+//SEARCH BAR FUNCTIONALITY
+function filterServices() {
+    
+    var input = document.getElementById("serviceSearch");
+    var filterValue = input.value.toLowerCase();
+    
+    
+    var cards = document.getElementsByClassName("service-card");
+    var i;
+
+    
+    for (i = 0; i < cards.length; i++) {
+        // Target specifically the h3 heading inside each service section
+        var heading = cards[i].querySelector("h3");
+        
+        if (heading) {
+           
+            var headingText = heading.textContent || heading.innerText;
+            
+            
+            if (headingText.toLowerCase().indexOf(filterValue) > -1) {
+                cards[i].style.display = ""; 
+            } else {
+                cards[i].style.display = "none"; 
+            }
+        }
+    }
+}
