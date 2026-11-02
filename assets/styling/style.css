@@ -448,28 +448,7 @@ label.checkbox input[type="checkbox"]
   font-family: cursive;
 }
 
-/*Search and filter option in index page*/
-.search-section {
-    padding: 20px;
-    margin: 30px auto;
-    max-width: 1200px;
-}
-
-#serviceSearch {
-    max-width: 500px;
-    margin: 0 auto 30px auto;
-    display: block;
-    border: 2px solid #ad94c9;
-    padding: 12px 20px;
-    font-size: 18px;
-    border-radius: 999px; /*  pill-shaped look */
-}
-
-#serviceSearch:focus {
-    outline: none;
-    border-color: #b2416e;
-    box-shadow: 0 0 8px rgba(178, 65, 110, 0.3);
-}
+/*Service on about us page*/
 
 .service-card {
     background-color: #ad94c9; 
