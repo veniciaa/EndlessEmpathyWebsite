@@ -112,6 +112,8 @@ The main goals of the website are:
  - 29 October 2026:Changed image styling and removed margin(0 auto) 
  - 29 October 2026: Adjusted font for a more responsive design
  - 29 October 2026:Added deplyment link to readme file
+ - 02 November 2026: Added detail to the alt attributes for the images and to improve SEO
+ - 02 November 2026: Added required to each of the input tags
 
 
 
