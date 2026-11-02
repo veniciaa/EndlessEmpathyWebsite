@@ -89,46 +89,58 @@
 
             <form action="/submit-volunteer" method="POST">
                 <fieldset>
-                    
-                <p>
 
-                    <label>Name:</label>
+                <label>Name:</label>
+                    <br>
+                <input 
+                    type="name" 
+                    id="volunteerName"  
+                    name="volunteerName"  
+                    required value="Your name here" 
+                    required/>
+                
+
+                <label>Phone:</label>
+                    <br>
+                <input 
+                    type="tel" 
+                    name="volunteerPhone" 
+                    required placeholder="Phone number here " 
+                    required/>
+
+
+                <label class="checkbox">Interests:</label>
+                    <br>
+                <input 
+                type="checkbox" 
+                name="interests" 
+                value="community">
+                Community Outreach
 
                     <br>
 
-                    <input name="volunteerName" required placeholder="name" required type="text"/>
-                </p>
-
-                <p>
-                    <label>Phone:</label>
-                    
-                    <br>
-                    
-                    <input type="tel" name="volunteerPhone" required placeholder="Phone number here "/>
-                        
-                </p>
-
-                <p class="checkbox">
-
-                    <label>Interests:</label>
+                <input 
+                type="checkbox" 
+                name="interests" 
+                value="admin"> 
+                Admin
                     
                     <br>
 
-                    <input type="checkbox" name="interests" value="community">Community Outreach
+                <input 
+                type="checkbox" 
+                name="interests" 
+                value="mentalHealth"> 
+                Mental Health
+                
                     <br>
 
-                    <input type="checkbox" name="interests" value="admin"> Admin
-                    
-                    <br>
-
-                    <input type="checkbox" name="interests" value="mentalHealth"> Mental Health
-                </p>
-
-                    <p>
-                        <button class="btn-apply" type="submit">
-                            Apply
-                        </button>
-                    </p>
+                <button 
+                    class="btn-apply" 
+                    type="submit">         
+                    Apply
+                </button>
+                
 
                 </fieldset>
             </form>

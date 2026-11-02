@@ -265,7 +265,7 @@ textarea {
 
 /*VOLUNTEER PAGE*/
 
-p.checkbox 
+label.checkbox 
 {
     text-align: left;
     line-height: 2;   /* creates spacing between components*/
@@ -275,7 +275,7 @@ p.checkbox
 }
 
 
-p.checkbox input[type="checkbox"] 
+label.checkbox input[type="checkbox"] 
 {
     display: block;
     width: auto;

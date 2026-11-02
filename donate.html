@@ -74,24 +74,44 @@
 
             <form action="/submit-donation" method="POST"> <!--This allows the form part of the webpage to basically form-->
                
-                <p>
-                    <label for="fullName">Full Name:</label><br>
-                    <input type="name" id="fullName" name="fullName"  required placeholder="Name" required>
-                </p>
+                
+                <label for="fullName">Full Name:</label>
+                    <br>
+                <input 
+                    type="name" 
+                    id="fullName" 
+                    name="fullName"  
+                    required placeholder="Name" 
+                    required>
+                
 
-                <p>
-                    <label for="email">Email Address:</label><br>
-                    <input type="email" id="email" name="email" required placeholder="email" required>
-                </p>
+                
+                <label for="email">Email Address:</label>
+                    <br>
+                <input 
+                    type="email" 
+                    id="email" 
+                    name="email" 
+                    required placeholder="email" 
+                    required>
 
-                <p>
-                    <label for="message">Leave a Message (Optional):</label><br>
-                    <textarea id="message" name="message" rows="4" cols="30" required placeholder="Leave yout message here."></textarea>
-                </p>
 
-                <p>
-                    <button class="btn-submit" type="submit">Submit Donation</button>
-                </p>
+                <label for="message">Leave a Message (Optional):</label>
+                    <br>
+                <textarea 
+                    id="message" 
+                    name="message" 
+                    rows="4" 
+                    cols="30" 
+                    required placeholder="Leave yout message here.">
+
+                    </textarea>
+
+                <button 
+                    class="btn-submit" 
+                    type="submit">
+                    Submit Donation
+                </button>
 
             </form>
 

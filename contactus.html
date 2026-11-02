@@ -58,20 +58,39 @@
 
         <form id="contactForm">
 
-            <p>
-                <label>Name:</label><br>
-                <input type="text" name="myName" id="myName" value="Your name here" onfocus="this.value=''" required>
-            </p>
+            <label>Name:</label>
+                <br>
+            <input 
+                type="name" 
+                name="myName" 
+                id="myName" 
+                value="Your name here" 
+                onfocus="this.value=''" 
+                required>
+            
 
-            <p>
-                <label>Email:</label><br>
-                <input type="email" name="myEmail" id="myEmail" value="Your email here" onfocus="this.value=''" required>
-            </p>
+            
+            <label>Email:</label>
+                <br>
+            <input 
+                type="email" 
+                name="myEmail" 
+                id="myEmail" 
+                value="Your email here" 
+                onfocus="this.value=''" 
+                required>
+            
 
             <!-- button -->
-            <p>
-                <button class="btn-send" type="button" onclick="validateForm()">Send</button>
-            </p>
+            
+            <button 
+                class="btn-send" 
+                type="button" 
+                onclick="validateForm()">
+                    Send
+
+            </button>
+            
         </form>
                
      </main>
